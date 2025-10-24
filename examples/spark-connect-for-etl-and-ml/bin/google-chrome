@@ -1,0 +1,5 @@
+#!/bin/bash
+
+google-chrome --user-data-dir="$HOME/chrome-proxy-profile" \
+  --proxy-server="http=http://localhost:2080" \
+  "$@"
