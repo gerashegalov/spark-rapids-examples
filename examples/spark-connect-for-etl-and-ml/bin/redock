@@ -1,0 +1,6 @@
+#!/bin/bash
+
+env DATA_DIR=/home/gshegalov/dais-2025/data \
+    SPARK_PUBLIC_DNS=container-hostname \
+    docker compose -f docker-compose.yaml up \
+    --detach --build --force-recreate
