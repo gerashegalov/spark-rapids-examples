@@ -76,7 +76,7 @@ worth of CSV the demo runs with.
 
 1. **Clone and navigate to the project:**
    ```bash
-   cd examples/spark-connect-for-etl-and-ml
+   cd examples/spark-connect-gpu
    ```
 
 2. **Set up data directory (if needed):**
